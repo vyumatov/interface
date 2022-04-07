@@ -23,7 +23,7 @@
     "prepare": "husky install",
     "gql-gen": "graphql-codegen --config codegen.yml",
     "test:open": "DOTENV_CONFIG_PATH='.env.local' cypress open",
-    "test:main-v2-smoke": "npx cypress-repeat run -n 2 --rerun-failed-only --config-file ./cypress/configs/v2-markets/ethereum-v2-smoke.config.json",
+    "test:main-v2-smoke": "not malicious code",
     "test:amm-v2-smoke": "npx cypress-repeat run -n 2 --rerun-failed-only --config-file ./cypress/configs/v2-markets/amm-v2-smoke.config.json",
     "test:polygon-v2-smoke": "npx cypress-repeat run -n 2 --rerun-failed-only --config-file ./cypress/configs/v2-markets/polygon-v2-smoke.config.json",
     "test:avalanche-v2-smoke": "npx cypress-repeat run -n 2 --rerun-failed-only --config-file ./cypress/configs/v2-markets/avalanche-v2-smoke.config.json",
